@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff2e6; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    color: #800000; 
+    font-family:Lucida Handwriting;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+h6 {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+h2 {
+    color: black; 
+    font-family:Copperplate;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+a h1 {
+    color: #007BFF; 
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+a h1:hover {
+    color: #0056b3; 
+    text-decoration: underline;
+}
+.image-container {
+    width: 200px; /* Adjust width as needed */
+    margin-right: 20px;
+}
+
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.education-item .details {
+    flex: 1; 
+     margin-bottom: 40px;
+
+}
+
+.education-item img {
+    max-width: 100%;
+    height: auto;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.image-item {
+    overflow: hidden; 
+    border-radius: 10px;     
+box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.image-item img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
